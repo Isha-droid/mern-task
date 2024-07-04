@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+body {
+  background-color: #E0F7FA;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Customize scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #00796B;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #004D40;
+}
+
+.addContainer {
+  margin-top: 2rem;
+}
+
+.addContainer form {
+  background: #FFFFFF;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.addContainer label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  color: #37474F;
+}
+
+.addContainer input,
+.addContainer textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #B0BEC5;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  color: #37474F;
+}
+
+.addContainer input:focus,
+.addContainer textarea:focus {
+  outline: none;
+  border-color: #00796B;
+  box-shadow: 0 0 0 3px rgba(0, 150, 136, 0.2);
+}
+
+.addContainer button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background: #00796B;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.addContainer button:hover {
+  background: #004D40;
+}
+
+.toast {
+  display: none;
+  position: fixed;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #388E3C;
+  color: #FFFFFF;
+  padding: 1rem;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
